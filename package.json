@@ -1,0 +1,18 @@
+{
+  "name": "pulse-inbox-pro",
+  "version": "5.0.0",
+  "private": true,
+  "description": "PULSE INBOX PRO v5 — Mail.tm temporary inbox with OTP and raw-link extraction.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check:mailtm": "node scripts/check-mailtm.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
